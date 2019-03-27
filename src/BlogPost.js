@@ -20,9 +20,15 @@ export default class BlogPost extends Component {
         I won't let you tilt me<br/>
         You only grew accustomed to the salt<br/>
         I was born in it<br/>
+<<<<<<< HEAD
         <Comment commentText={comments[0]} />
         <Comment commentText={comments[1]} />
         <Comment commentText={comments[2]} />
+=======
+        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[0]} />
+>>>>>>> 8a0f58c3e7532db5cc7a2991dcf3a30f55339c2e
 
       </div>
     );
